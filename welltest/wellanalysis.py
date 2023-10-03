@@ -287,7 +287,7 @@ def constant_pressure_test(t, q, pwf, pi, Bo, mu_oil, h, poro, ct, rw):
 
   plt.grid(True, which='both', color='black', linewidth=0.1)
 
-  plt.tight_layout(1)
+  plt.tight_layout()
   plt.show()  
 
 def constant_rate_buildup_test(t, p, q, Bo, mu_oil, h, poro, ct, rw, t_since_shutin, your_guess=5):
